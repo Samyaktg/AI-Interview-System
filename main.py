@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger('interview_app')
 
 # Set Hugging Face API Token
-HF_API_TOKEN = "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" 
+HF_API_TOKEN = "" 
 
 class InterviewApp:
     def __init__(self, root):
